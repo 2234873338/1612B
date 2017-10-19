@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="15"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:text="请选择时间" />
+
+    <TextView
+        android:id="@+id/yang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="阳历" />
+
+    <TextView
+        android:id="@+id/yangli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:text="XXXX-XX-XX"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/yin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="阴历" />
+
+    <TextView
+        android:id="@+id/yinli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="XX（X）年X月X"
+        android:textSize="50dp"/>
+</LinearLayout>

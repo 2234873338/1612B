@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_menu_search"
+        android:title="@string/menu_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/menu_notifications"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_item1"
+        android:title="@string/item_01"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_item2"
+        android:title="@string/item_02"
+        app:showAsAction="never" />
+
+    <!--1.ifRoom：只要在app bar存在可用空间，就可以显示，可以通过orderInCategory设置优先级，具有最低的值将被显示为操作，其余显示在溢出菜单。-->
+
+    <!--2.withText：这个看字面意思就能明白就是和图标显示文字，一般和ifRoom一起通过“|”使用，但是你发现设置了竖屏看不到，要横屏才能看到。-->
+
+    <!--3.never：这个就是一直显示在溢出菜单里面，没什么好说的-->
+
+    <!--4.always：始终把这个放到项目中app bar。但是谷歌建议避免这么使用，除非它非常关键，使它始终显示在操作栏。设置多个始终显示在app bar可能会导致它们在应用栏其他UI重叠。-->
+
+    <!--5.collapseActionView：这个一般也和ifRoom连用，就是把控件折叠到一个按钮中，使用searchView应该选择该属性。-->
+
+    <!--如果OptionMenu中需显示到ActionBar的菜单项过多，则可能因宽度不再，无法全部显示，默认情况下会在最右侧显示由3个小点组成的按钮，点击该按钮将可以弹出未能直接显示的菜单项，该位置通常称之为Overflow Menu即：溢出的菜单。-->
+</menu>

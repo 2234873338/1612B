@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PullToRefresh" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appa" />
+            <option value="$PROJECT_DIR$/asynchttptest" />
+            <option value="$PROJECT_DIR$/asynctask_runonuithread" />
+            <option value="$PROJECT_DIR$/cadrviewtest" />
+            <option value="$PROJECT_DIR$/cardviewdemo" />
+            <option value="$PROJECT_DIR$/chinacalendar" />
+            <option value="$PROJECT_DIR$/datetest" />
+            <option value="$PROJECT_DIR$/dqytest" />
+            <option value="$PROJECT_DIR$/drawerlayout" />
+            <option value="$PROJECT_DIR$/drawerlayouttest" />
+            <option value="$PROJECT_DIR$/duanqiyan_test" />
+            <option value="$PROJECT_DIR$/gametest" />
+            <option value="$PROJECT_DIR$/gson" />
+            <option value="$PROJECT_DIR$/json" />
+            <option value="$PROJECT_DIR$/json1612b" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mydrawerlayout" />
+            <option value="$PROJECT_DIR$/myrobot" />
+            <option value="$PROJECT_DIR$/myrobot1612b" />
+            <option value="$PROJECT_DIR$/myxutils" />
+            <option value="$PROJECT_DIR$/netcodetest" />
+            <option value="$PROJECT_DIR$/newgamedoom" />
+            <option value="$PROJECT_DIR$/news" />
+            <option value="$PROJECT_DIR$/nohttptest" />
+            <option value="$PROJECT_DIR$/pulltorefreshlibrary" />
+            <option value="$PROJECT_DIR$/pulltorefreshtest" />
+            <option value="$PROJECT_DIR$/recycleviewtest" />
+            <option value="$PROJECT_DIR$/slidingmenu" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/textshadowcolortest" />
+            <option value="$PROJECT_DIR$/textshadowtest" />
+            <option value="$PROJECT_DIR$/tool" />
+            <option value="$PROJECT_DIR$/toutiaotest" />
+            <option value="$PROJECT_DIR$/xutilsdownload2" />
+            <option value="$PROJECT_DIR$/xutilstest" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
